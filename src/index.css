@@ -11,3 +11,62 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a, p, span, h1, h2, h3, h4 h5 h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.main {
+  max-width: 1200px;
+  margin: auto;
+}
+
+
+.business .slick-list .slick-slide {
+  /* width: 279px !important;
+  margin-left: 20px; */
+
+}
+.business {
+  
+  margin-top: 20px;
+}
+
+.business .slick-dots {
+  top: 363px;
+}
+
+.business .slick-dots li.slick-active button:before {
+  font-size: 14px;
+  color: #FF0000;
+}
+
+.business .slick-dots li button:before {
+  font-size: 14px;
+  color: #FFBFBF;
+}
+
+
+
+.banner .bannerTop {
+  height: 100%;
+}
+
+.banner .slick-dots {
+  bottom: 30px;
+}
+
+.banner .slick-dots li.slick-active button:before {
+  font-size: 14px;
+  color: #FF0000;
+}
+
+.banner .slick-dots li button:before {
+  font-size: 14px;
+  color: #FFBFBF;
+}
